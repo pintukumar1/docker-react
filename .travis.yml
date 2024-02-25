@@ -13,10 +13,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
-  app: "react2"  
-  env: "React2-env"
+  app: "react3"  
+  env: "React3-env"
   bucket_name: "elasticbeanstalk-ap-south-1-917520606879"  
-  bucket_path: "react2"
+  bucket_path: "react3"
   on: 
     branch: master
   access_key_id: $AWS_ACCESS_KEY
