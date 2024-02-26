@@ -13,10 +13,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
-  app: "react5"  
-  env: "React5-env"
+  app: "react6"  
+  env: "React6-env"
   bucket_name: "elasticbeanstalk-ap-south-1-917520606879"  
-  bucket_path: "react5"
+  bucket_path: "react6"
   on: 
     branch: master
   access_key_id: $AWS_ACCESS_KEY
